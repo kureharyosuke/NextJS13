@@ -2,7 +2,6 @@ import { addPosts, getPosts } from "@/lib/data";
 import { NextResponse } from "next/server";
 
 export const GET = async (req: Request, res: Response) => {
-  console.log("GET REQUEST");
   try {
     const posts = getPosts();
 
@@ -15,7 +14,6 @@ export const GET = async (req: Request, res: Response) => {
 };
 
 export const POST = async (req: Request, res: Response) => {
-  console.log("POST REQUEST");
   try {
     const { title, description } = await req.json();
 
