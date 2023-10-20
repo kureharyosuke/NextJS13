@@ -1,7 +1,7 @@
 import { deletePost, getById, updatePost } from "@/lib/data";
 import { NextRequest, NextResponse } from "next/server";
 
-export const GET = async (req: NextRequest, res: Response) => {
+export const GET = async (req: Request, res: Response) => {
   try {
     const id = req.url.split("blogs/")[1];
     const post = getById(id);
