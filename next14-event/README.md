@@ -1,3 +1,5 @@
+# Bunjs
+
 # Nextjs 14
 
 # shadcn-ui
@@ -10,4 +12,10 @@ npx shadcn-ui@latest init
 
 ```sh
 bunx --bun shadcn-ui@latest add button
+```
+
+# error fix
+
+```sh
+bun add @radix-ui/react-slot
 ```
