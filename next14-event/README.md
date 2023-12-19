@@ -19,3 +19,7 @@ bunx --bun shadcn-ui@latest add button
 ```sh
 bun add @radix-ui/react-slot
 ```
+
+```sh
+bun add @clerk/nextjs
+```
