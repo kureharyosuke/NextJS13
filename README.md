@@ -5,3 +5,5 @@
 ## middleware role
 
 ## layout
+
+RootLayout => HomeLayout => Home

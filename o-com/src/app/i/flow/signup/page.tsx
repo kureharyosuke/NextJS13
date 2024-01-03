@@ -1,3 +1,5 @@
+"use client";
+
 import stylex from "@stylexjs/stylex";
 import { CommonStyles } from "@/styles/CommonStyles";
 
