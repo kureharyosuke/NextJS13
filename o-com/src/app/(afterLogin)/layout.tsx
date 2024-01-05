@@ -1,5 +1,5 @@
 // AfterLayout
 
 export const AfterLayout = ({ children }: { children: React.ReactNode }) => {
-  return <div>{children}</div>;
+  return <main>애프터 레이아웃{children}</main>;
 };
